@@ -1,10 +1,10 @@
 body{
 	background-color: #174555;
 	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-position: center;
-  	padding-right: 20%;
-  	padding-left: 20%;
+  background-attachment: fixed;
+  background-position: center;
+  padding-right: 20%;
+  padding-left: 20%;
 	overflow: none;
 	font-family: 'Roboto Mono';
 	color:  white;
@@ -58,10 +58,10 @@ nav a {
 
 /*HERO*/
 #intro {
-	/*width: 100px;*/
 	margin-right: 15%;
 	margin-left: 15%;
-	height: 100%;
+  height: 100px;
+  width: 150x;
 }
 h1 {
 	text-align: center;
@@ -79,7 +79,7 @@ h1 {
 	/*border: 1px solid black;*/
 	width: 300px;
 	height: 500px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 
 }
 .image1 {
@@ -88,7 +88,7 @@ h1 {
 	background-image: url('../images/background1.png');
 	background-repeat: no-repeat;
 	background-position: center;
-    background-size: 620px 500px;
+  background-size: 620px 500px;
 }
 
 .image2 {
@@ -97,7 +97,7 @@ h1 {
 	background-image: url('../images/background2.png');
 	background-repeat: no-repeat;
 	background-position: center;
-    background-size: 620px 500px;
+  background-size: 620px 500px;
 }
 
 .image3 {
@@ -106,7 +106,7 @@ h1 {
 	background-image: url('../images/background3.png');
 	background-repeat: no-repeat;
 	background-position: center;
-    background-size: 620px 500px;
+  background-size: 620px 500px;
 }
 #home {
 	margin-top: 150px;
@@ -152,6 +152,9 @@ h1 {
 	border: 1px solid white;
 	border-radius: 20px;
 	max-width: 250px;
+	height: 170px;
+	overflow: hidden;
+	/*overflow-y: hidden;*/
 }
 
 /*#space {
@@ -205,6 +208,15 @@ h2 {
 	}
 	.image3{
 		display: none;
+	}
+	#intro {
+		margin: auto;
+	}
+	h1 {
+		font-size: 2.5rem;
+	}
+	.txt {
+		font-size: 2.5rem;
 	}
 
 	nav .container {
